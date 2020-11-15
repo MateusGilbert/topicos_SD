@@ -4,9 +4,9 @@ Presentes neste repositório trabalhos desenvolvidos para a disciplina de Tópic
 (1) um programa extração de extração de carácteristicas relevantes de arquivos PDF (proj.ipynb);
 
 (2) protótipo (inacabado) de um programa para classificação de processos jurídicos utilizando rede LSTM Bidirecional (trab_final.ipynb).
-__________________________________________________________________________________________________________________________________________________________________
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Como utilizar:
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 (1) O programa solicitara o upload dos arquivos que se deseja análisar. Os arquivos carregarregados devem ser no formato pdf. Dois programas OCR (pdfplumber e tesseract OCR) convertem o arquivo pdf em arquivo texto, para que as extrações sejam executadas. O arquivo gerado pelo pdfplumber é utilizado para as análises de palavras (variedade lexical e frequência de incidência no texto), enquanto o arquivo gerado pelo tesseract é utilizado para a análise das frases do texto. Ao final, um pequeno resumo das informações dos arquivos análisados são listadas.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------

@@ -3,4 +3,4 @@ Presentes neste repositório trabalhos desenvolvidos para a disciplina de Tópic
 
 (1) um programa extração de extração de carácteristicas relevantes de arquivos PDF (proj.ipynb);
 
-(2) protótipo (inacabado) de um programa para classificação de processos jurídicos utilizando rede LSTM Bidirecional.
+(2) protótipo (inacabado) de um programa para classificação de processos jurídicos utilizando rede LSTM Bidirecional (trab_final.ipynb).

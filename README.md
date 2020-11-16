@@ -13,7 +13,7 @@ Como utilizar:
 
 ![test image size](https://github.com/MateusGilbert/topicos_SD/blob/main/pictures/Screenshot_2020-11-16%20Google%20Colaboratory.png)
 
-Os arquivos carregarregados devem ser no formato pdf.
+Os arquivos carregados devem ser no formato pdf.
 
 ![test image size](https://github.com/MateusGilbert/topicos_SD/blob/main/pictures/Screenshot%20from%202020-11-16%2016-55-37.png)
 

@@ -9,7 +9,7 @@ Presentes neste repositório trabalhos desenvolvidos para a disciplina de Tópic
 Como utilizar:
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-(1) O programa solicitara o upload dos arquivos que se deseja análisar.
+(1) O programa solicitará o upload dos arquivos que se deseja analisar.
 
 ![test image size](https://github.com/MateusGilbert/topicos_SD/blob/main/pictures/Screenshot_2020-11-16%20Google%20Colaboratory.png)
 

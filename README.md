@@ -15,7 +15,7 @@ Como utilizar:
 
 Os arquivos carregarregados devem ser no formato pdf.
 
-![alt text](https://github.com/MateusGilbert/topicos_SD/blob/main/pictures/Screenshot%20from%202020-11-16%2016-55-37.png){:height="50%" width="50%"}
+![alt text](https://github.com/MateusGilbert/topicos_SD/blob/main/pictures/Screenshot%20from%202020-11-16%2016-55-37.png | width="50%")
 
 Dois programas OCR (pdfplumber e tesseract OCR) convertem o arquivo pdf em arquivo texto, para que as extrações sejam executadas. O arquivo gerado pelo pdfplumber é utilizado para as análises de palavras (variedade lexical e frequência de incidência no texto), enquanto o arquivo gerado pelo tesseract é utilizado para a análise das frases do texto. Ao final, um pequeno resumo das informações dos arquivos análisados são listadas.
 

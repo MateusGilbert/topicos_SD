@@ -24,10 +24,14 @@ Dois programas OCR (pdfplumber e tesseract OCR) convertem o arquivo pdf em arqui
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-(2) O programa desenvolvido para classificar arquivos de processos judicias fornecidos na disciplina. Assume que os arquivos tratados estão comprimidos em um arquivo zip, presente em um Google Drive que deve ser acoplado (mount) quando solicitado pelo programa. Alguns parâmetros devem ser ajustados (além da rede lstm bidirecional):
+(2) O programa desenvolvido para classificar arquivos de processos judiciais fornecidos na disciplina. Assume que os arquivos tratados estão comprimidos em um arquivo zip, presente em um Google Drive que deve ser acoplado (mount no primeiro retângulo da figura abaixo) quando solicitado pelo programa. Ba figura, o diretório onde estão os arquivos judiciais é armazenado na variável zirDir.
+
+![test image size](https://github.com/MateusGilbert/topicos_SD/blob/main/pictures/Screenshot_2020-11-17%20Google%20Colaboratory.png)
+
+Alguns parâmetros devem ser ajustados (além da rede lstm bidirecional):
 
   (i) quatidade de páginas de cada arquivo em pdf que são convertidas em arquivo texto (default = 2 páginas);
   
-  (ii) quantidade de palavras (que não são stopwords) que servem de entrada para a rede Bi-LSTM (default = 1000 palavras).
+  (ii) quantidade de palavras (que não são stopwords) que servem de entrada para a rede Bi-LSTM (default = 1000 palavras, o nome da variável é max_size).
   
 Na sua atual configuração, o programa procura classificar os arquivos utilizados no treinamento de acordo com os campos listados antes de fornece-los para o treinamento da rede neural.
